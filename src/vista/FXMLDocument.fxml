@@ -1,14 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" fx:controller="creacionarchivo.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="456.0" prefWidth="392.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="creacionarchivo.FXMLDocumentController">
     <children>
-        <Button layoutX="126" layoutY="90" text="Click Me!" onAction="#handleButtonAction" fx:id="button" />
-        <Label layoutX="126" layoutY="120" minHeight="16" minWidth="69" fx:id="label" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Label layoutX="62.0" layoutY="53.0" text="Agregar Estudiantes" textFill="#3bd097">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="Telefono" layoutX="12.0" layoutY="168.0" text="Telefono" />
+      <Label fx:id="Nombre" layoutX="10.0" layoutY="128.0" text="Nombre">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="Correo" layoutX="17.0" layoutY="209.0" text="Correo" />
+      <Label fx:id="Codigo" layoutX="16.0" layoutY="250.0" text="Codigo" />
+      <Label fx:id="Carrera" layoutX="16.0" layoutY="295.0" text="Carrera" />
+      <TextField fx:id="tNombre" layoutX="160.0" layoutY="125.0" />
+      <TextField fx:id="tTelefono" layoutX="160.0" layoutY="164.0" />
+      <TextField fx:id="tCorreo" layoutX="160.0" layoutY="205.0" />
+      <TextField fx:id="tCodigo" layoutX="161.0" layoutY="246.0" />
+      <TextField fx:id="tcarrera" layoutX="161.0" layoutY="291.0" />
+      <Button layoutX="54.0" layoutY="369.0" mnemonicParsing="false" onAction="#AgregarEstudiantes" text="Agregar Estudiantes" />
+      <Button layoutX="210.0" layoutY="369.0" mnemonicParsing="false" onAction="#GuardarArchivo" prefHeight="25.0" prefWidth="149.0" text="Guardar Archivo" />
     </children>
 </AnchorPane>

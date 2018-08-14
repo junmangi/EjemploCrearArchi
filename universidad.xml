@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<universidad>
+  <estudiante>
+    <nombre>w</nombre>
+    <telefono>w</telefono>
+    <correo>w</correo>
+    <codigo>w</codigo>
+    <carrera>w</carrera>
+  </estudiante>
+  <estudiante>
+    <nombre>e</nombre>
+    <telefono>e</telefono>
+    <correo>e</correo>
+    <codigo>e</codigo>
+    <carrera>e</carrera>
+  </estudiante>
+</universidad>
