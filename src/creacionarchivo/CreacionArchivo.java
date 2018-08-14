@@ -19,7 +19,7 @@ public class CreacionArchivo extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/vista/ FXMLDocument.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/vista/FXMLDocument.fxml"));
         
         Scene scene = new Scene(root);
         
